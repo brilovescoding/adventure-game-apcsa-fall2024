@@ -5,6 +5,9 @@ public class Role {
             //set bonusHardiness to 2
             //set bonusWisdom to 0
         }
+        else if (_name.equals("Rogue")) {
+
+        }
         else {
             throw new java.lang.Error("Oops");
         }
