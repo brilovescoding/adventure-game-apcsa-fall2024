@@ -1,6 +1,6 @@
-CGPS Adventure Game
+# CGPS Adventure Game
 
-# Project 1, Part 2
+## Project 1, Part 2
 
 Write the classes for the portion of the Adventure Game to which you were assigned. Complete the following objectives:
 
