@@ -25,5 +25,22 @@ public class Role {
     public String getName() {
         return name;
     }
+
+    public int getChaMod() {
+        return 200;
+    }
+
+
+    public boolean test() {
+        Role r = new Role("Fighter");
+        if (!r.getName().equals("Fighter")) {
+            return false;
+        }
+
+        //check if getChaMod() function returns
+        //within -2 to 2 inclusive
+
+        return true;
+    }
 }
 //nbjdskubgdbsuakbgdasukgas
