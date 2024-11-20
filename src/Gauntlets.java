@@ -119,6 +119,11 @@ public class Gauntlets{
         return;
     }
 
+    public void displayInlineName(){
+        String whiteColor = "\u001B[37m";
+        System.out.println(getNameData("equipmentColor") + getNameData("equipmentName") + whiteColor);
+    }
+
     public String toString(){
         return "\uD83E\uDDE4";
     }
