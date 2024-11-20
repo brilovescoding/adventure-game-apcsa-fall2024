@@ -1,3 +1,4 @@
+// Aubrey S
 public class Role {
     private String name;
     private int roleLevel;
