@@ -1,5 +1,11 @@
 # CGPS Adventure Game
 
+## Project 2: Representing our Character
+### Task 1: Writing a Character displayInventory() method
+In the Character class, alter the constructor method to give a Player a default set of equipment. Use the constructors of all of your classmates in this owrk.
+
+Additionally, do all of your work in a branch named after your first initial and last name. For instance, my branch will be **aschott**.
+
 ## Project 1, Part 2
 
 Write the classes for the portion of the Adventure Game to which you were assigned. Complete the following objectives:
