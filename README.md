@@ -1,31 +1,15 @@
 # CGPS Adventure Game
 
 ## Project 2: Representing our Character
-### Task 1: Writing a Character displayInventory() method
+
+### Task 1: Draw our Character
+Add a toString() method to Character that will display what the character will look like on an open, grid-like world. This is likely going to just be an emoji, so this is an easy task and is just practice for what comes after.
+
+Additionally, do all of your work in a branch named after your first name last initial and task. For instance, my branch will be **aubreys2-1**.
+
+### Task 2: Writing a Character displayInventory() method
 In the Character class, alter the constructor method to give a Player a default set of equipment. Use the constructors of all of your classmates in this owrk.
 
-Additionally, do all of your work in a branch named after your first initial and last name. For instance, my branch will be **aschott**.
+Then, in the Character class, write a method called displayCharacter() to display the current character's gear in an organized way.
 
-## Project 1, Part 2
-
-Write the classes for the portion of the Adventure Game to which you were assigned. Complete the following objectives:
-
-- Write getters and setters for all instance variables you have included
-
-- Write a constructor that sets all the instance variables that need to be set for your given class. Keep in mind the difference between set instance variables (set from outside the class) and computed instance variables (ones that will be calculated within your class)
-
-- Write six methods that calculate the stat modifiers based on the instance variables. They should return integers that are positive or negative based on the stat modification. The stat modification must not be higher or lower than 2 or -2 for each stat.
-
-- getStrMod()
-
-- getDexMod()
-
-- getConMod()
-
-- getIntMod()
-
-- getWisMod()
-
-- getChaMod()
-
-You do not need to modify every type - some of them can just simply return zero. But you must have all of them.
+Additionally, do all of your work in a branch named after your first name last initial and task. For instance, my branch will be **aubreys2-2**.
