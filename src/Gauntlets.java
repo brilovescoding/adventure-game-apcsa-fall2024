@@ -119,6 +119,10 @@ public class Gauntlets{
         return;
     }
 
+    public String toString(){
+        return "\uD83E\uDDE4";
+    }
+
     // The code below is redundant
     public int getStrMod(){return getModifier("strength");}
     public int getDexMod(){return getModifier("dexterity");}
