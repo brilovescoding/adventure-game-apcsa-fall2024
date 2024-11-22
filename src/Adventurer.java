@@ -18,6 +18,7 @@ public class Adventurer {
     }
 
 
+
     public String toString() {
         return "🐢";
     }
