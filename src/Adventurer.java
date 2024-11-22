@@ -17,8 +17,9 @@ public class Adventurer {
         this.currentMP = 10 + calculateModifier(wisdom);
     }
 
-    public String toString(){
-        return "🙂";
+
+    public String toString() {
+        return "🐢";
     }
 
     public int calculateModifier(int abilVal) {
@@ -27,6 +28,11 @@ public class Adventurer {
 
     public void printCharacter() {
         System.out.println(name + " | HP: " + currentHP + "/" + maxHP + " | MP: " + currentMP + "/" + maxMP);
+
+    }
+
+    public String toString() {
+        return "🎾";
     }
 }
 
