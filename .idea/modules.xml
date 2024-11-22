@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/adventure-game-apcsa-fall2024V2.iml" filepath="$PROJECT_DIR$/adventure-game-apcsa-fall2024V2.iml" />
+
+      <module fileurl="file://$PROJECT_DIR$/adventure-game-apcsa-fall2024.iml" filepath="$PROJECT_DIR$/adventure-game-apcsa-fall2024.iml" />
     </modules>
   </component>
 </project>
