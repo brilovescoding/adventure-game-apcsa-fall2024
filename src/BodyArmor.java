@@ -76,6 +76,9 @@ public class BodyArmor {
         return true;
     }
 
+    public String toString() {
+        return "BodyArmor: " + "Material: " + material + " Quality: " + quality + " Durability: " + currentDurability + " / " + maxDurability;
+    }
 
     //not implementing this constructor
 /*

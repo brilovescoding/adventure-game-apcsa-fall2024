@@ -93,6 +93,17 @@ public class RangeWeapons {
     public int getChaMod() {
         return 0;
     }
+
+    public String toString() {
+        return "RangeWeapons {" +
+                "range=" + range +
+                ", damage=" + damage +
+                ", ammoCapacity=" + ammoCapacity +
+                ", currentAmmo=" + currentAmmo +
+                ", ammoType=" + ammoType +
+                ", weight=" + weight +
+                '}';
+    }
     public boolean test(){
         RangeWeapons weapons = new RangeWeapons(60, 10,5,5,1,12.0);
         if (weapons.getStrMod() != -1){

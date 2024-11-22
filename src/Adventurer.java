@@ -24,12 +24,18 @@ public class Adventurer {
     }
 
 
+
     public int calculateModifier(int abilVal) {
         return (abilVal - 10) / 2;
     }
 
     public void printCharacter() {
         System.out.println(name + " | HP: " + currentHP + "/" + maxHP + " | MP: " + currentMP + "/" + maxMP);
+
+    }
+
+    public String toString() {
+        return "🎾";
     }
 }
 
