@@ -17,6 +17,7 @@ public class Adventurer {
         this.currentMP = 10 + calculateModifier(wisdom);
     }
 
+
     public String toString() {
         return "🐢";
     }
