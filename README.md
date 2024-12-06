@@ -1,10 +1,27 @@
 # CGPS Adventure Game
 
-## Project 2: Representing our Character
+## Lab 3.1: Creating Inheritance Relationships
 
-### Task 1: Draw our Character
-Add a toString() method to Adventurer that will display what the character will look like on an open, grid-like world. This is likely going to just be an emoji, so this is an easy task and is just practice for what comes after.
+### Objectives:
+Students will have to add and modify existing classes to create the structure of our Adventure game.
 
-Then, add a toString() method to your Item to display the stat bonuses and qualities of your item.
+### Adding new classes
+Using the UML diagram provided by Ms. Schott, add the following classes. Include the specified instance variables and remove any that are unnecessary.
 
-Additionally, do all of your work in a branch named after your first name last initial and task. For instance, my branch will be **aubreys2-1**.
+- Entity
+- Stats
+- Monster
+- Adventurer
+- Item
+- Consumable
+- Equipment
+- Weapon
+- Armor
+
+You do not need to code anything extra for the classes; just set up the inheritance relationships at this time.
+
+### Modifying existing classes
+Per the UML diagram, modify the existing classes to utilize inheritance or compositional relationships.
+
+#### Adventurer
+Move Stats and the related methods to the Stats class.
